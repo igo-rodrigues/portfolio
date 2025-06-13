@@ -216,6 +216,35 @@ a:hover {
 
 @media (max-width: 480px) {
   main {
-    padding-top: 180px; /* aumenta o espaço para o cabeçalho em telas pequenas */
+    padding-top: 260px; /* aumenta ainda mais para garantir espaço */
+  }
+
+  .sobre-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .foto-lado {
+    margin-bottom: 20px;
+  }
+
+  ul li {
+    align-items: center;
+  }
+
+  .projeto-img {
+    max-width: 100%;
+  }
+
+  nav button {
+    display: inline-block;
+    margin: 8px;
+    font-size: 1rem;
+  }
+
+  .contato-info {
+    flex-direction: column;
+    gap: 10px;
   }
 }
