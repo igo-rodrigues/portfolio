@@ -5,9 +5,13 @@ function navegar(destino) {
     window.location.href = destino;
   }, 300);
 }
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
   const header = document.querySelector('header');
   const main = document.querySelector('main');
-  const headerHeight = header.offsetHeight;
-  main.style.paddingTop = `${headerHeight + 40}px`; // 40px extra de margem
+
+  if (header && main) {
+    const headerHeight = header.offsetHeight;
+    main.style.paddingTop = `${headerHeight + 20}px`; // 20px extra de margem
+  }
 });
+
