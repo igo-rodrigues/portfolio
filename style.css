@@ -12,7 +12,7 @@ html {
 }
 
 main {
-  padding-top: 140px; /* Aumentado para acomodar cabeçalho fixo sem cortar imagem */
+  padding-top: 260px; /* valor fixo maior para garantir espaço */
 }
 
 section {
